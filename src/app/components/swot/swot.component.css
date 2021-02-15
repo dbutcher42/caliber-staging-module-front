@@ -9,11 +9,6 @@ body{
     background: var(--white);
 }
 
-.row{
-    background: var(--white);
-    box-shadow: 12px 12px 22px var(--light-gray);
-}
-
 img{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -46,6 +41,11 @@ img{
 
 .nav-link:hover{
     color: var(--light-gray);
+}
+
+.row{
+    background: var(--white);
+    box-shadow: 12px 12px 22px var(--light-gray);
 }
 
 #message {

@@ -2,16 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 body{
   background: var(--dark-white);
-}
-
-.row{
-  background: var(--white);
-  box-shadow: 12px 12px 22px grey;
 }
 
 img{
@@ -46,4 +40,9 @@ img{
 
 .nav-link:hover{
   color: var(--light-gray);
+}
+
+.row{
+  background: var(--white);
+  box-shadow: 12px 12px 22px grey;
 }

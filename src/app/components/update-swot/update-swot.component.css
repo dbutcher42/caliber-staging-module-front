@@ -9,11 +9,6 @@ body{
   background: var(--dark-white);
 }
 
-.row{
-  background: var(--white);
-  box-shadow: 12px 12px 22px var(--light-gray);
-}
-
 img{
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -36,10 +31,15 @@ img{
   color: var(--black);
 }
 
+.form-content {
+  width: 50%;
+}
+
 .modal-content {
   width: 600px !important;
 }
 
-.form-content {
-  width: 50%;
+.row{
+  background: var(--white);
+  box-shadow: 12px 12px 22px var(--light-gray);
 }
